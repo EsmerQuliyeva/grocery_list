@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+}
+
+.container {
+     display: flex;
+    width: 90%;
+    margin: auto;
+
+   
+}
+.grocery{
+    background-color: white;
+    width: 600px;
+    min-height: 100vh;
+    margin: auto; 
+    box-shadow: 10px 10px 24px 0 rgba(0,0,0,0.5);
+}
+.icon-input{
+    text-align: center;
+}
+.grocery h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.grocery i{
+font-size: 25px;
+color:orange;
+
+}
+#input-search{
+    border:none;
+    border-bottom: 3px solid black;
+    width: 70%;
+    outline:none;
+    font-size: 20px;
+    
+}
+.all-items h2{
+    font-family: inherit;
+    font-size:30px;
+    margin-top:20px;
+    font-weight: 100;
+
+}
